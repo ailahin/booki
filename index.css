@@ -135,6 +135,11 @@
     margin-right: 20px;
     border-radius: 15px;
 }
+
+.show-more{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .most-popular{
     width: 34%;
     background-color:rgb(243, 243, 243);
@@ -175,6 +180,8 @@
 .details-text {
 margin-left: 20px;
 line-height: .3cm;
+margin-bottom: 5px;
+
 
 }
 .most-popular-details{
