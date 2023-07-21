@@ -18,7 +18,6 @@
 }
 .nav-flex a{
     text-decoration: none;
-    position: relative;
 }
 .nav-flex a:hover{
     border-top: 2px solid blue;
@@ -329,8 +328,6 @@ margin-bottom: 5px;
 
     }
 
-    
-
 
     }
 
@@ -355,7 +352,8 @@ margin-bottom: 5px;
     };
     
     .nav-flex a:hover{
-        
+        border-block: top;
+
     }
     
     .filters {

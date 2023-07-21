@@ -321,15 +321,24 @@ margin-bottom: 5px;
         border-top: 0px;
 
     }
-    .nav-flex a:hover{
+    /* .nav-flex a:hover{
         border-bottom: 2px solid blue;
         color: blue;
         padding-top: 2px;
         border-top:0px;
 
-    }
+    } */
 
-    
+    .nav-flex a:hover::after {
+        /* Add the blue border on hover */
+        content: "";
+        position: absolute;
+        bottom: -2px; /* Position the border just above the gray bottom border */
+        left: 0;
+        width: 100%; /* Show the full border in blue on hover for width 400px */
+        height: 2px;
+        background-color: blue;
+    }
 
 
     }
@@ -355,7 +364,7 @@ margin-bottom: 5px;
     };
     
     .nav-flex a:hover{
-        
+     
     }
     
     .filters {
