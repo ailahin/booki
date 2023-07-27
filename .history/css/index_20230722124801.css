@@ -74,11 +74,10 @@
     
 
 .search-btn{
-    background-color: #0065FC;
+    background-color: rgb(58, 92, 227);
     color:white;
-    height: 38px;
-    border: 0px solid #0065FC ;
-    padding:10px;
+    height: 22px;
+    padding:8px;
     border-radius: 0  10px 10px 0;
 }
 .filters-bar{
@@ -142,7 +141,7 @@
 }
 .all-accomodations{
     width: 66%;
-    background-color:#F2F2F2;
+    background-color:rgb(243, 243, 243);
     padding: 15px;
     margin-top: 20px;
     margin-right: 20px;
@@ -155,7 +154,7 @@
 }
 .most-popular{
     width: 34%;
-    background-color:#F2F2F2 ;
+    background-color:rgb(243, 243, 243);
     padding:15px;
     margin-top: 20px;
     border-radius: 15px;
@@ -328,8 +327,8 @@ margin-bottom: 5px;
 
     }
     .nav-flex a:hover{
-        border-bottom: 2px solid #0065FC;
-        color: #0065FC;
+        border-bottom: 2px solid blue;
+        color: blue;
         padding-top: 2px;
         border-top:0px;
 
